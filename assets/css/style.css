@@ -1,0 +1,517 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #ffffff,#c9d2da );
+    padding: 0,!important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 200px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #000000 !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color:#ffffff;
+    font-size: 30px !important;
+}
+.navbar-nav li a:hover{
+    color: #1dc68c !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-toggler{
+   outline: none !important;
+
+}
+
+/* Banner Section */
+
+
+
+#banner{
+    background-image: linear-gradient(to right, #1dc68c,#1dc68c );
+
+    color: #fff;
+    padding-top: 5% ;
+}
+.promo-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+#banner img a{
+    color: #fff;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
+}
+
+                       /* dropdown-menu */
+
+/* Style The Dropdown Button */
+.dropbtn {
+  /* background-color: black; */
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+
+
+/*-----------------
+	1.2. Button
+-------------------------*/
+
+.btn {
+    border: medium none;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 30px;
+    margin: auto;
+    padding: 7px 36px;
+    transition: all 0.3s linear 0s;
+     -moz-transition: all 0.3s linear 0s;
+      -o-transition: all 0.3s linear 0s;
+       -webkit-transition: all 0.3s linear 0s;
+        -ms-transition: all 0.3s linear 0s;
+  }
+  .btn .fa {
+    font-size: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  .btn.btn-lg {
+      font-size: 28px;
+      line-height: 35px;
+      padding: 25px 83px;
+  }
+  .btn.btn-lg:hover {
+      background:#c51514
+  }
+  .btn:hover, .btn:focus {
+      color: #ffffff;
+      outline:none;
+  }
+  .btn-link {
+    font-weight: 800;
+  }
+  .btn.outline {
+      background:none;
+      border-style:solid;
+      border-width:1px;
+  }
+  .btn.outline:hover, .btn.outline:focus {
+      color:rgb(59, 93, 245);
+  }
+  .btn.btn-xs {
+      font-size:12px;
+      padding:0px 25px;
+  }
+  .btn.btn-xs .fa {
+      margin:0 5px;
+      font-size:14px;
+  }
+  
+  .angle_arrow {
+    background: #1dc68c none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 22px;
+    line-height: 20px;
+    margin-left: 4px;
+    text-align: center;
+    vertical-align: text-top;
+    width: 22px;
+  }
+  .btn .angle_arrow .fa {
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    vertical-align: middle;
+  }
+  .btn.outline.active-btn {
+      border-color:#089901;
+      color:#089901;
+  }
+  .btn.outline.active-btn:hover {
+      background:#089901;
+      color:rgb(255, 255, 255);
+  }
+  
+  a,
+  .btn-link,
+  .car-title-m h6 a:hover,
+  .featured-car-content > h6 a:hover,
+  .footer-top ul li a:hover,
+  .get-intouch a:hover,
+  .blog-content h5 a:hover,
+  .blog-info-box li a:hover,
+  .control-label span,
+  .angle_arrow i,
+  .contact_detail li a:hover,
+  .team_more_info p a:hover,
+  .error_text_m h2,
+  .search_btn,
+  .popular_post_title a:hover,
+  .categories_list ul li a:hover,
+  .categories_list ul li a:hover:after,
+  .article_meta ul li a:hover,
+  .articale_header h2 a:hover,
+  .btn.outline,
+  .share_article ul li,
+  .contact-info a:hover,
+  .social-follow a:hover,
+  .radio input[type=radio]:checked + label:before,
+  .checkbox input[type=checkbox]:checked + label:before,
+  .product-listing-content h5 a:hover,
+  .pricing_info .price,
+  .text-primary,
+  .footer_widget ul li a:hover,
+  .header_search button:hover,
+  .header_widgets a:hover,
+  .navbar-default .navbar-nav > li.active a,
+  .navbar-default .navbar-nav > li:focus a,
+  .navbar-default .navbar-nav > li:hover a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:focus,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .my_vehicles_list ul.vehicle_listing li a:hover,
+  .dealer_contact_info a:hover,
+  .widget_heading i,
+  .dealers_listing .dealer_info h5 a:hover,
+  .main_features ul li p,
+  .listing_detail_head .price_info p,
+  .listing_other_info button:hover,
+  .compare_info table td i, .compare_info table th i,
+  #accessories i,
+  .price,
+  .inventory_info_list ul li i,
+  .services_info h4 a:hover,
+  .about_info .icon_box,
+  .header_style2 .navbar-nav > li > .dropdown-menu a:hover,
+  .header_style2 .navbar-default .navbar-nav li:hover .dropdown-menu li a:hover,
+  .header_style2 .dropdown-menu > .active > a,
+  .header_style2 .dropdown-menu > .active > a:focus,
+  .header_style2 .dropdown-menu > .active > a:hover,
+  .header_style2 .dropdown-menu > li > a:focus,
+  .header_style2 .dropdown-menu > li > a:hover {
+      color:#131212;
+      fill: #000000;
+  }
+  
+  a:hover, a:focus, .btn-link:hover {
+      color:#28befa;
+      fill: #28befa;
+  }
+  
+  .btn,
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:focus,
+  .nav-tabs > li.active > a:hover,
+  .recent-tab .nav.nav-tabs li.active a,
+  .fun-facts-m, .featured-icon,
+  .owl-pagination .owl-page.active,
+  #testimonial-slider .owl-pagination .owl-page.active,
+  .social-follow.footer-social a:hover,
+  .back-top a,
+  .team_more_info ul li a:hover,
+  .tag_list ul li a:hover,
+  .pagination ul li.current,
+  .pagination ul li:hover,
+  .btn.outline:hover,
+  .btn.outline:focus,
+  .share_article ul li:hover,
+  .nav-tabs > li a:hover,
+  .nav-tabs > li a:focus,
+  .label-icon,
+  .navbar-default .navbar-toggle .icon-bar,
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover,
+  .label_icon,
+  .navbar-nav > li > .dropdown-menu,
+  .add_compare .checkbox,
+  .search_other,
+  .vs,
+  .td_divider,
+  .search_other_inventory,
+  #other_info,
+  .main_bg,
+  .slider .slider-handle, .slider .slider-selection {
+    background: #28befa none repeat scroll 0 0;
+    fill: #28befa;
+  }
+  .btn:hover, .btn:focus,
+  .search_other:hover,
+  #other_info:hover {
+      background-color: #28befa;
+      fill: #28befa;
+  }
+  
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:focus,
+  .nav-tabs > li.active > a:hover,
+  .social-follow.footer-social a:hover,
+  .page-header,
+  .tag_list ul li a:hover,
+  .btn.outline,
+  .share_article ul li,
+  blockquote,
+  .social-follow a:hover,
+  .radio label:before,
+  .navbar-default .navbar-toggle,
+  .owl-buttons div,
+  .about_info .icon_box {
+      border-color: #28befa;
+  }
+  
+  .recent-tab .nav.nav-tabs li.active::after {
+      border-color: #28befa rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  }
+  .td_divider:after {
+      border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0 ) rgba(0, 0, 0, 0 ) #28befa ;
+  }
+  
+  .navbar-nav > li > .dropdown-menu li {
+    border-bottom: 1px solid #28befa;
+  }
+  
+  @media (max-width:767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+      color:#28befa;
+  }
+  
+  
+  }
+
+  /* Service Section */
+
+  #services{
+      padding: 80px 0;
+      background: #f8f9fa;
+  }
+  .service-img{
+      width: 100px;
+      margin-top: 20px;
+  }
+  .services{
+      padding: 20px;
+  }
+  .services h4{
+     padding: 5px;
+     margin-top: 25px;
+     text-transform: uppercase;
+  }
+  .title::before{
+     content:'';
+     background-color: #1dc68c;
+     height: 5px;
+     width: 200px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     transform: translateY(63px);
+  }
+  .title::after{
+    content:'';
+    background-color: #1dc68c;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+ }
+ #services .btn-primary{
+     box-shadow: none;
+     padding: 8px 25px;
+     border: none;
+     border-radius: 20px;
+     background-image: linear-gradient(to right, #1dc68c,#1dc68c );
+ }
+
+ /* about us section */
+
+ #about-us{
+     background-color: #1dc68c;
+     background: #fff;
+     padding-bottom: 50px;
+     padding-top: 50px;
+ }
+ .about-title{
+     font-size: 40px;
+     font-weight: 600;
+     margin-top:8%;
+ }
+ #about-us ul li{
+     margin: 10px 0;
+
+ }
+ #about-us ul{
+    margin-left: 20px;
+ }
+
+ /* testimonials */
+ #testimonials{
+     margin: 100px 0;
+     padding-top: 30px;
+ }
+ .testimonials{
+     border-left:4px solid #1dc68c;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+ #testimonials img{
+     height:60px;
+     width: 60px;
+     border-radius:50%;
+     margin: 0 10px;
+ }
+ .user-details{
+     display:inline-block;
+     font-size: 12px;
+ }
+
+ /* Social Media Section */
+
+#social-media{
+    background: #f8f9fa;
+    padding: 5px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+    padding-right: 5px;
+
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+ 
+/* Footer Section */
+#footer{
+    background-image: linear-gradient(to right, #1dc68c,#1dc68c );
+    color: #fff;
+
+}
+.footer-img{
+    width:100%
+}
+.footer-box{
+    padding:20px
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+     margin-right:8px;
+     font-size: 25px;
+     height: 40px;
+     width: 40px;
+     text-align: center;
+     padding-top: 7px;
+     border-radius: 2px;
+     background-image: linear-gradient(to right, #42997b,#0c3628 );
+    }
+    .footer-box .form-control{
+        box-shadow: none !important;
+        border: none;
+        border-radius: 0;
+        margin-top: 25px;
+        max-width: 250px;
+    }
+    .footer-box .btn-primary{
+          box-shadow: none !important;
+          border: none;
+          border-radius: 0;
+          margin-top: 30px;
+          background-image: linear-gradient(to right, #42997b,#0c3628 );
+
+    } 
+    hr{
+        background-color: #fff;
+
+    }
+    .copyright{
+        color: #ffffff;
+  font-size: 15px;
+  line-height: 40px;
+  margin: 0 auto;
+        margin-bottom: 0 ;
+        padding-bottom: 20px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    

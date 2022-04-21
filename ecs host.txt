@@ -1,0 +1,7 @@
+Your database has been setup. Use the following values:
+
+
+Database:	eneedeic_ecs
+Host:	localhost
+Username:	eneedeic_ecs
+Password:	123456
